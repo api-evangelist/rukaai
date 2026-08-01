@@ -1,8 +1,25 @@
 aid: rukaai
 name: Ruka.ai
-description: Ruka.ai is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ruka.ai is a Spanish-language AI company, backed by 500 Global, that builds AI agents
+  giving businesses control and visibility over their operating margin. Its agents automate operational
+  processes, process invoices, detect cost-saving opportunities and anomalies, and alert teams to
+  variations in real time so they can reduce operational costs and make better data-driven decisions.
+  Ruka.ai is a SaaS product presented through a marketing website at ruka.ai; as of this enrichment
+  pass it publishes no public developer API, OpenAPI specification, developer portal, or documentation
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/rukaai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ruka.ai/robotshero2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Automation
+- Cost Optimization
+- FinOps
+- Operational Efficiency
+- Invoice Processing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rukaai-domain-security.yml
 - type: Website
   url: https://ruka.ai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
