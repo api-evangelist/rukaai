@@ -45,3 +45,41 @@ plans:
   price_text: Cuéntanos tu proceso
   period: none
   included_quota: Más volumen, otra integración o un flujo propio de tu empresa
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Start
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Core
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Scale
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Ruka One / personalizado
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
