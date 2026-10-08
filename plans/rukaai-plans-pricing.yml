@@ -1,0 +1,47 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.ruka.ai/
+sources:
+- https://www.ruka.ai/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Spanish-language site (Chile). Three monthly tiers limited by documents processed per month; all
+  plans share same capabilities. Custom option for other needs.
+plan_count: 4
+currency: CLP
+plans:
+- name: Start
+  price_text: $99.990 / mes
+  price: 99990
+  currency: CLP
+  period: month
+  unit: documentos
+  included_quota: Hasta 200 documentos / mes
+- name: Core
+  price_text: $249.990 / mes
+  price: 249990
+  currency: CLP
+  period: month
+  unit: documentos
+  included_quota: Hasta 500 documentos / mes
+- name: Scale
+  price_text: $449.990 / mes
+  price: 449990
+  currency: CLP
+  period: month
+  unit: documentos
+  included_quota: Hasta 1.200 documentos / mes
+- name: Ruka One / personalizado
+  price_text: Cuéntanos tu proceso
+  period: none
+  included_quota: Más volumen, otra integración o un flujo propio de tu empresa
